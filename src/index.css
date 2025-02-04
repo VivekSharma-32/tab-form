@@ -12,7 +12,7 @@
   display: flex;
   border: 1px solid black;
   margin-top: 20px;
-  height: 300px;
+  height: 200px;
   padding: 5px;
 }
 
@@ -27,4 +27,21 @@
   display: block;
   font-size: small;
   padding: 3px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  gap: 10px;
+}
+
+.button-container button {
+  width: 10%;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background: linear-gradient(in oklab, #110909, #5d5f65);
+  border-radius: 2px;
 }

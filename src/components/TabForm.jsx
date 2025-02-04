@@ -87,7 +87,7 @@ const TabForm = () => {
       <div className="tab-body">
         <ActiveTabComponent data={data} setData={setData} errors={errors} />
       </div>
-      <div>
+      <div className="button-container">
         {activeTab > 0 && <button onClick={handlePrevClick}>Previous</button>}
         {activeTab < tabs.length - 1 && (
           <button onClick={handleNextClick}>Next</button>

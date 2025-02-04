@@ -7,7 +7,7 @@ const Profile = ({ data, setData, errors }) => {
   };
   return (
     <div>
-      <div>
+      <div className="input-container">
         <label htmlFor="name">Name</label>
         <input
           type="text"
@@ -18,7 +18,7 @@ const Profile = ({ data, setData, errors }) => {
         />
         {errors.name && <span className="error">{errors.name}</span>}
       </div>
-      <div>
+      <div className="input-container">
         <label htmlFor="email">Email</label>
         <input
           type="text"
@@ -29,7 +29,7 @@ const Profile = ({ data, setData, errors }) => {
         />
         {errors.email && <span className="error">{errors.email}</span>}
       </div>
-      <div>
+      <div className="input-container">
         <label htmlFor="age">Age</label>
         <input
           type="number"
