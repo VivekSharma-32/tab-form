@@ -78,7 +78,7 @@ const TabForm = () => {
           <div
             key={idx}
             className={"heading" + (idx === activeTab ? " active" : "")}
-            onClick={() => setActiveTab(idx)}
+            onClick={() => tabs[activeTab].validate() && setActiveTab(idx)}
           >
             {t.name}
           </div>
