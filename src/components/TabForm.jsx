@@ -68,7 +68,7 @@ const TabForm = () => {
 
   const handleSubmitClick = () => {
     // make api call
-    console.log(data);
+    // console.log(data);
   };
 
   return (

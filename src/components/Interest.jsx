@@ -11,7 +11,6 @@ const Interest = ({ data, setData, errors }) => {
         : prevData.interests.filter((interest) => interest !== e.target.name),
     }));
   };
-  console.log(interests);
 
   return (
     <div>
