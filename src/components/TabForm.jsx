@@ -56,7 +56,7 @@ const TabForm = () => {
 
   const handleNextClick = () => {
     if (tabs[activeTab].validate()) {
-      setActiveTab((prev) => prev + 1);
+      setActiveTab((next) => next + 1);
     }
   };
 
